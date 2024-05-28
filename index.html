@@ -31,6 +31,7 @@
         </nav>
     </header>
     <main>
+        <h3 id="mensaje"></h3>
         <img src="plaza_huamanga.jpg" alt="" width="800px" />
         <h1>
             Sitio Web para conocer los lugares Turísticos de la Región Ayacucho
@@ -66,6 +67,14 @@
      </footer>
 </body>
 <script>
-    alert("Hola Compatriotas")
+    //alert("Hola Compatriotas")
+    let mensaje;
+    let person = prompt("Por favor ingrese su nombre:", "");
+    if (person == null || person == "") {
+        mensaje = "Bienvenido, estas en modo invitado";
+    } else {
+        mensaje = "Bienvenido " + person;
+    }
+    document.getElementById("mensaje").innerHTML = mensaje;
 </script>
 </html>
