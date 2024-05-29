@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+header {
+    border: solid;
+    background-color: azure;
+}
+nav {
+    display: flex;
+    padding: 23px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+.viaje {
+    display:block;
+    margin: 0px auto;
+    width: 500px;
+    border-radius: 80px;
+   }
+.btn-sign-in {
+    text-decoration: none;
+    background-color: blue;
+    padding: 13px;
+    color :white;
+    border-radius: 8px;
+    
+}
+.header-list {
+    display: flex;
+    gap : 30px;
+    list-style: none;
+    
+}
+.header-list > li >a {
+    text-decoration: none;
+    color : black;
+}
+.header-list > li > a:hover {
+    text-decoration: solid;
+    color : red;
+}
+main {
+    background-color: beige;
+}
